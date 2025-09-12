@@ -5,8 +5,6 @@ const DashboardContext = createContext()
 
 export const DashboardProvider = ({ children }) => {
   const [dashboard, setDashboard] = useState(() => {
-    // Clear localStorage to force reload with updated JSON structure
-    localStorage.removeItem('cnapp_dashboard')
     const saved = localStorage.getItem('cnapp_dashboard')
     return saved ? JSON.parse(saved) : initialJSON
   })
