@@ -1,0 +1,136 @@
+{
+    "categories": [
+      {
+        "id": "cspm",
+        "title": "CSPM Executive Dashboard",
+        "widgets": [
+          {
+            "id": "cloudAccounts",
+            "name": "Cloud Accounts",
+            "type": "donut",
+            "total": "2 Total",
+            "data": [
+              { "name": "Connected", "value": 2, "color": "#0f62fe" },
+              { "name": "Not Connected", "value": 2, "color": "#d1d5db" }
+            ]
+          },
+          {
+            "id": "riskAssessment",
+            "name": "Cloud Account Risk Assessment",
+            "type": "donut",
+            "total": "9659 Total",
+            "data": [
+              { "name": "Failed", "value": 1689, "color": "#fa4d56" },
+              { "name": "Warning", "value": 681, "color": "#ff832b" },
+              { "name": "Not available", "value": 36, "color": "#d1d5db" },
+              { "name": "Passed", "value": 7253, "color": "#42be65" }
+            ]
+          },
+          {
+            "id": "empty1",
+            "name": "",
+            "type": "empty",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "id": "cwpp",
+        "title": "CWPP Dashboard",
+        "widgets": [
+          {
+            "id": "namespaceAlerts",
+            "name": "Top 5 Namespace Specific Alerts",
+            "type": "empty",
+            "content": "No Graph data available!"
+          },
+          {
+            "id": "workloadAlerts",
+            "name": "Workload Alerts",
+            "type": "empty",
+            "content": "No Graph data available!"
+          },
+          {
+            "id": "empty2",
+            "name": "",
+            "type": "empty",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "id": "registry",
+        "title": "Registry Scan",
+        "widgets": [
+          {
+            "id": "imageRisk",
+            "name": "Image Risk Assessment",
+            "type": "horizontalBar",
+            "total": "1470 Total Vulnerabilities",
+            "data": [
+              { "name": "Critical", "value": 9, "color": "#8b0000" },
+              { "name": "High", "value": 150, "color": "#fa4d56" },
+              { "name": "Medium", "value": 500, "color": "#ff832b" },
+              { "name": "Low", "value": 600, "color": "#ffd700" },
+              { "name": "Info", "value": 211, "color": "#e6e6fa" }
+            ]
+          },
+          {
+            "id": "imageSecurity",
+            "name": "Image Security Issues",
+            "type": "horizontalBar",
+            "total": "2 Total Images",
+            "data": [
+              { "name": "Critical", "value": 2, "color": "#8b0000" },
+              { "name": "High", "value": 2, "color": "#fa4d56" },
+              { "name": "Medium", "value": 1, "color": "#ff832b" },
+              { "name": "Low", "value": 1, "color": "#ffd700" },
+              { "name": "Info", "value": 0, "color": "#e6e6fa" }
+            ]
+          },
+          {
+            "id": "empty3",
+            "name": "",
+            "type": "empty",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "id": "ticket",
+        "title": "Ticket Management",
+        "widgets": [
+          {
+            "id": "openTickets",
+            "name": "Open Tickets",
+            "type": "donut",
+            "total": "12 Total",
+            "data": [
+              { "name": "High Priority", "value": 3, "color": "#fa4d56" },
+              { "name": "Medium Priority", "value": 5, "color": "#ff832b" },
+              { "name": "Low Priority", "value": 4, "color": "#42be65" }
+            ]
+          },
+          {
+            "id": "ticketPriority",
+            "name": "Ticket Priority Distribution",
+            "type": "horizontalBar",
+            "total": "25 Total Tickets",
+            "data": [
+              { "name": "Critical", "value": 2, "color": "#8b0000" },
+              { "name": "High", "value": 8, "color": "#fa4d56" },
+              { "name": "Medium", "value": 10, "color": "#ff832b" },
+              { "name": "Low", "value": 5, "color": "#42be65" }
+            ]
+          },
+          {
+            "id": "empty4",
+            "name": "",
+            "type": "empty",
+            "content": ""
+          }
+        ]
+      }
+    ]
+  }
+  
