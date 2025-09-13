@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Widget from './widget'
+import Widget from './Widget'
 import AddWidgetModal from './AddWidgetModal'
 
 export default function Category({ category }) {
