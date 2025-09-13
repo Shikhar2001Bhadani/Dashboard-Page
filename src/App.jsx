@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { useDashboard } from './context/DashboardContext'
-import Category from './components/category'
+import Category from './components/Category'
 import Header from './components/Header'
 import AddWidgetModal from './components/AddWidgetModal'
 
